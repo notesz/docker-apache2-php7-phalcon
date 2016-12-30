@@ -35,7 +35,7 @@ docker run -d --hostname test.project \
     -v /home/notesz/webdev/testProject:/var/www \
     -p 80:80 \
     --name test.project \
-    innobotics/docker-apache2-php7-phalcon
+    notesz/apache2-php7-phalcon
 ```
 
 * `-p [local port]:80` local port to the container's HTTP port 80
